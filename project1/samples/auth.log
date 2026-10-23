@@ -1,0 +1,17 @@
+Oct 19 08:10:00 web01 sshd[2100]: Failed password for invalid user admin from 203.0.113.45 port 50212 ssh2
+Oct 19 08:11:01 web01 sshd[2110]: Failed password for invalid user admin from 203.0.113.45 port 51212 ssh2
+Oct 19 08:12:02 web01 sshd[2120]: Failed password for invalid user admin from 203.0.113.45 port 52212 ssh2
+Oct 19 08:13:03 web01 sshd[2130]: Failed password for invalid user admin from 203.0.113.45 port 53212 ssh2
+Oct 19 08:14:04 web01 sshd[2140]: Failed password for invalid user admin from 203.0.113.45 port 54212 ssh2
+Oct 19 08:15:05 web01 sshd[2150]: Failed password for invalid user admin from 203.0.113.45 port 55212 ssh2
+Oct 19 08:16:06 web01 sshd[2160]: Failed password for invalid user admin from 203.0.113.45 port 56212 ssh2
+Oct 19 08:17:07 web01 sshd[2170]: Failed password for invalid user admin from 203.0.113.45 port 57212 ssh2
+Oct 19 08:20:10 web01 sshd[2200]: Failed password for root from 198.51.100.23 port 40100 ssh2
+Oct 19 08:20:11 web01 sshd[2200]: Failed password for root from 198.51.100.23 port 41100 ssh2
+Oct 19 08:20:12 web01 sshd[2200]: Failed password for root from 198.51.100.23 port 42100 ssh2
+Oct 19 08:21:00 web01 sshd[2210]: Accepted password for root from 198.51.100.23 port 41200 ssh2
+Oct 19 08:25:00 web01 sshd[2300]: Accepted publickey for obinna from 10.0.0.15 port 50100 ssh2
+Oct 19 08:30:00 web01 sshd[2400]: Failed password for obinna from 10.0.0.15 port 50200 ssh2
+Oct 19 08:30:01 web01 sshd[2400]: Failed password for obinna from 10.0.0.15 port 50201 ssh2
+Oct 19 09:00:00 web01 clamd[900]: /tmp/x.bin: Win.Trojan.Agent FOUND sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Oct 19 09:05:00 web01 kernel: outbound connection to malware-c2.xyz (185.220.101.7) blocked; ref CVE-2024-3094

